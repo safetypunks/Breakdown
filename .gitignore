@@ -1,5 +1,9 @@
-.Rproj.user
+# RStudio/R specific files
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 .positai
+
+# Linux system files (if you ever move folders around)
+*~
