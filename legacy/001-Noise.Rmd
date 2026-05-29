@@ -1,0 +1,160 @@
+---
+title: #Hazardous Noise
+author: #Safety Punks
+date: #"`r Sys.Date()`"
+output: 
+  html_document:
+    theme: null
+    mathjax: null
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../posts") })
+---
+
+```{=html}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Kill the default RStudio header */
+#header {
+  display: none !important;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* ========================================== */
+/* THE ZINE MASTHEAD                          */
+/* ========================================== */
+.zine-container {
+  border: 4px solid #f0f0f0;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.zine-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.zine-brand img {
+  max-width: 45px;
+  height: auto;
+}
+
+.zine-brand-text {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.zine-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: clamp(50px, 10vw, 85px); 
+  line-height: 1;
+  color: #0a0a0a;
+  background-color: #ffcc00; 
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0 0 15px 0;
+  letter-spacing: 5px;
+}
+
+.zine-topic {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  color: #f0f0f0;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px dashed #ffcc00;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.zine-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #888;
+}
+
+/* ========================================== */
+/* STANDARD CONTENT STYLES                    */
+/* ========================================== */
+h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #ffcc00;
+  letter-spacing: 1.5px;
+  margin-top: 45px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+  border-bottom: 1px solid #ffcc00;
+  transition: 0.2s;
+}
+a:hover {
+  color: #0a0a0a;
+  background-color: #ffcc00;
+}
+</style>
+```
+
+::::::: zine-container
+::: zine-brand
+<img src="../assets/mosher_white.png" alt="Safety Punks Logo"/> [A Safety Punks Publication]{.zine-brand-text}
+:::
+
+::: zine-title
+BREAKDOWN
+:::
+
+::: zine-topic
+HAZARDOUS NOISE
+:::
+
+::: zine-meta
+**VOL:** 001 **REV:** 1.0 **DATE:** `r Sys.Date()`
+:::
+:::::::
+
+## Background
+
+This is the background information
+
+## The Hazard
+
+Hazard stuff what the heck
+
+## The Risk
+
+Here are the risks
+
+## The Corporate Lie
+
+## Application in the Real World
+
+## The Fix
+
+## Links
+
+here are some links to add regarding noise

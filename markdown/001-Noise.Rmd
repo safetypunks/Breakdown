@@ -1,8 +1,0 @@
----
-title: "Hazardous Noise"
-author: "Safety Punks"
-date: "2026-04-26"
-output: html_document
----
-
-Maybe you are wondering what the hell noise is and why it can be dangerous.
